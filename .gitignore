@@ -1,0 +1,26 @@
+# Created by https://www.toptal.com/developers/gitignore/api/elixir,exercism
+# Edit at https://www.toptal.com/developers/gitignore?templates=elixir,exercism
+
+### Elixir ###
+/_build
+/cover
+/deps
+/doc
+/.fetch
+erl_crash.dump
+*.ez
+*.beam
+/config/*.secret.exs
+.elixir_ls/
+
+### Elixir Patch ###
+
+### Exercism ###
+# gitignore template for Exercism project
+# website: https://exercism.io/
+
+# Ignore .exercism folder which contain sensitive data
+.exercism
+
+# End of https://www.toptal.com/developers/gitignore/api/elixir,exercism
+
